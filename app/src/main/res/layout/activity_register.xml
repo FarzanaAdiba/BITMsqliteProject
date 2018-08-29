@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:background="#9bda57"
+    >
+    <TextView
+        android:text="User Registration"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#c7206e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textColor="#4543ac"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/nameRegText"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="#70ae9b"
+                android:hint="Enter name"
+                android:textStyle="bold|italic"
+                android:layout_marginLeft="17dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginStart="38sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Email :"
+                android:textStyle="bold"
+                android:textColor="#4543ac"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/emailRegText"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="#70ae9b"
+                android:hint="Enter email"
+                android:textStyle="bold|italic"
+                android:inputType="textEmailAddress"
+                android:layout_marginStart="37sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Username:"
+                android:textStyle="bold"
+                android:textColor="#4543ac"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/usernameRegText"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="#70ae9b"
+                android:hint="Enter username"
+                android:textStyle="bold|italic"
+                android:inputType="text"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Password :"
+                android:textStyle="bold"
+                android:textColor="#4543ac"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/passRegText"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:hint="Enter password"
+                android:textStyle="bold|italic"
+                android:inputType="numberPassword"
+                android:layout_height="30sp"
+                android:background="#70ae9b"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerpgBtn"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/loginbtn"
+        android:layout_width="200dp"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

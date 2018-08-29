@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DbProjectSQlite</string>
+    <string name="save_data">Save Data</string>
+    <string name="display_data">Display data</string>
+    <string name="delete_data">Delete data</string>
+    <string name="update_data">Update data</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_age">Enter age</string>
+    <string name="enter_gender">Enter gender</string>
+    <string name="enter_id">Enter id</string>
+</resources>
